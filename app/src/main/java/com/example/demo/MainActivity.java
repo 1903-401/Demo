@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     // setting the timer, giving it a starting point
     private CountDownTimer countDownTimer;
     private long timeLeftInMilliseconds = 600000; // 600000 = 10 mins
-    private boolean timerRunning;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
